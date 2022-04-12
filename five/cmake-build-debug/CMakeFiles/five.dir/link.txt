@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/five.dir/main.cpp.o -o five.exe -Wl,--out-implib,libfive.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
