@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+struct Node{
+    int info;
+    Nide* link;
+};
+
+int main(){
+    Node *Top, *p;
+    int n;
+    Top = p = 0;
+
+    do{
+        cin>>x;
+
+        p = new Node;
+        p->info = x;
+
+        if(Top == p){
+            Top = p;
+            p->link = 0;
+        }
+        else{
+            p->link = Top;
+            Top = p;
+        }
+    } while(x!=0);
+
+    return 0;
+}
